@@ -1,0 +1,57 @@
+<template>
+	<q-page  class="row justify-center">
+	<div style='max-width:728px;width:100%'>
+<div class='shadow-1 '>
+<div class='row  q-ml-sm q-pt-sm '>
+	<div class='col-auto '>
+<img style='width:100px;height:100px ; border: 1px solid #ddd; ;border-radius: 50%;' class=' self-top q-ml-sm' src="https://pbs.twimg.com/profile_images/822921351249825792/M3Y9lsNs_400x400.jpg">	
+</div>
+<div class='q-pl-md q-mt-sm col '>
+	<div class='col'>
+	<div  class='row ' >
+		<div class='col-4'>
+<span  class='q-display-1 text-weight-medium  self-center fnt '>Ajay Kumar </span>
+<q-icon name="score" /><span class='fnt'> Score <span class='text-weight-medium'>122k</span></span>
+
+</div> 
+
+<div class='col-auto'><q-btn label='message ' icon='message' dense push class='q-py-none  q-ml-md  col-auto q-mt-sm ' color='primary'/>
+
+</div></div>
+</div> 
+
+<div class='fnt text-weight-light q-my-xs'>
+
+</div>
+
+
+
+</div>
+
+</div>
+  
+
+
+<q-tabs class='q-mt-xs'>
+        <q-tab slot="title" label="Post"  default />
+               <q-tab slot="title" label="Comments"  />
+
+      </q-tabs> 
+  </div>
+      
+
+  <router-view />
+
+</div>  
+</q-page>
+</template>
+<style type="text/css">
+	
+
+
+.fnt{
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+
+}
+
+</style>
